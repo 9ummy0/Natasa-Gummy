@@ -1,0 +1,10 @@
+SET Number TO 3
+SENT "please enter guessed number" to display
+RECEIVE guessed from keybord
+if guess > 10 then 
+SENT "toohigh" to display
+ELSE if guess = mystNumb THEN
+SEND "well done! you guessed correctly'" to display
+ELSE SEND "bad luck" to display
+END if
+END if
